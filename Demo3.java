@@ -7,6 +7,9 @@ public class Demo3 {
 
         //Display the telephone number with standard format and apply blue color to area code
 
-        System.out.printf("\033[34m(%03d) \033[0m%d-%d\n",num1,num2,num3);
+        final String BLUE = "\033[34m";
+        final String RESET = "\033[0m";
+
+        System.out.printf("%s(%03d) %s%d-%d\n",BLUE,num1,RESET,num2,num3);
     }
 }
