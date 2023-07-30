@@ -22,12 +22,12 @@ public class Demo6TaskD {
 
         String line = "+------------+----------+---------+";
 
-        //System.out.println(line);
+        
         System.out.printf("%s%s%s\n",BROWN,line,DEFAULT);
 
         System.out.printf(HEADER,BROWN,DEFAULT,BOLD,"ITEM",DEFAULT,BROWN,DEFAULT,BOLD,"QUANTITY",DEFAULT,BROWN,DEFAULT,BOLD,"PRICE",DEFAULT,BROWN,DEFAULT);
 
-        String line1 = "\033[32m+------------+\033[38;5;214m---------+\033[32m----------+\033[0m";
+        String line1 = "+\033[32m------------\033[38;5;214m+----------+\033[32m---------\033[38;5;214m+";
 
         System.out.printf("%s%s%s\n",BROWN,line1,DEFAULT);
         
