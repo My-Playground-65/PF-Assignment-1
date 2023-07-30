@@ -10,7 +10,7 @@ public class Demo6TaskC {
         final int pop2 = 8336817;
 
         String cityName1 = "Los Angeles";
-        String cityName2 = "New";
+        String cityName2 = "New York";
 
         String state1 = "California";
         String state2 = "New York";
@@ -24,7 +24,7 @@ public class Demo6TaskC {
 
         String line = "+--------------------+--------------+-------------+";
 
-        //System.out.println(line);
+        
         System.out.printf("%s%s%s\n",BROWN,line,DEFAULT);
 
         System.out.printf(HEADER,BROWN,DEFAULT,BOLD,"CITY",DEFAULT,BROWN,DEFAULT,BOLD,"STATE",DEFAULT,BROWN,DEFAULT,BOLD,"POPULATION",DEFAULT,BROWN,DEFAULT);
